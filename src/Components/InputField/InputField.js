@@ -46,7 +46,19 @@ const InputField = (props) => {
       setLabel2Valid(false);
       setError({title: 'Invalid Input',message: "Please Enter a valid Username and Age (non-empty values)"})
       return;
-    } else if (age < 1) {
+    }else if(username.length === 0 ){
+      setInput1Valid(false);
+      setLabel1Valid(false);
+      setError({title:'No Username Entered', message: "Please Enter Username"})
+      return ;
+    } 
+    else if(age.length === 0){
+      setInput2Valid(false);
+      setLabel2Valid(false);
+      setError({title:'No Age Entered', message: "Please Enter Age"})
+      return ;
+    }
+    else if (age < 1) {
       setInput2Valid(false);
       setLabel2Valid(false);
       setError({title: 'Invalid Age',message: "Please Enter a valid age"})
