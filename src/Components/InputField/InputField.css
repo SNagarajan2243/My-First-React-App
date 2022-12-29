@@ -1,0 +1,23 @@
+.formDesign{
+    padding: 4% 3%;
+}
+.formDesign label,input{
+    display:block;
+}
+.formDesign label{
+    font-size: large;
+    font-weight: bold;
+    margin: 2% 0 0;
+}
+.formDesign input{
+    width: 100%;
+    margin: 2% 0 0;
+    height: 30px;
+}
+.labelInValid{
+    color: red;
+}
+.inputInValid{
+    background: rgb(248, 72, 72);
+    border: 1px solid red;
+}

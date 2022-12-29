@@ -1,0 +1,13 @@
+.list {
+  border: 1px solid black;
+  margin: 1% 5px;
+  padding: 1%;
+  list-style: none;
+}
+.listMargin{
+  padding: 4% 3%;
+} 
+.infoAlign{
+    text-align: center;
+    padding: 4% 0;
+}

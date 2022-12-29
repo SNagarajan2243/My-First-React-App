@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(29, 28, 28);
+}
+.container{
+    width: 50%;
+    margin: 1% auto;
+}
